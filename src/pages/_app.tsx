@@ -10,7 +10,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
       <link rel="icon" href="/favicon.ico" />
       <link rel="preconnect" href="https://guiaviajarmelhor.com.br" />
       <meta name="description" content="FunRetro Challenge by @mathvaleriano" />
-      <meta name="robots" content="noindex" />
     </Head>
 
     <body>
