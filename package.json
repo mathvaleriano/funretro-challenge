@@ -11,7 +11,8 @@
     "format": "prettier --write **/*.{js,ts,tsx}",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "sitemap": "node sitemap-generator.js"
   },
   "husky": {
     "hooks": {
@@ -49,6 +50,7 @@
     "jest": "^25.2.3",
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
+    "nextjs-sitemap-generator": "^1.0.0",
     "prettier": "^2.0.2",
     "styled-components": "^5.1.1",
     "typescript": "^3.8.3"
